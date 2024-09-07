@@ -9,7 +9,6 @@ public class Postfija {
     private String text;
     public static String notation(String texto){
         Operando operando = new Operando();
-        Operando operando2 = new Operando();
         Map<String, Integer> valor = new HashMap<String, Integer>();
         valor.put("(",0);
         valor.put("+",1);

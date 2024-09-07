@@ -161,7 +161,7 @@ public class Calculator extends JFrame {
         button5.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println(Postfija.notation(formula.getText()));
+
                 double result = Postfija.Result(Postfija.notation(formula.getText()));
                 if(result==(int)result){
                     formula.setText(String.valueOf((int)result));
